@@ -1,3 +1,3 @@
-def my_function(x, y):
-    return x+y
+def my_function(x, y, z=0):
+    return x+y+z
 
