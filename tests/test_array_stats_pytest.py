@@ -1,5 +1,5 @@
 import pytest
-import array_stats
+import code.array_stats
 
 @pytest.mark.parametrize("data_list,expected",
                          [([-2, -1, 0, 1, 2],0),
