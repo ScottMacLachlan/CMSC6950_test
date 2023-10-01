@@ -1,6 +1,6 @@
 import pytest
 import math as m
-from code.mymath import sinc2d
+from mymath import sinc2d
 
 @pytest.mark.parametrize("x,y,expected",
                          [(0,0,1),

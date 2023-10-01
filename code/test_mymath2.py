@@ -1,5 +1,5 @@
 import pytest
-from code.mymath import *
+from mymath import *
 
 @pytest.mark.parametrize("x,x_plus_one",[(0,1),(1,2),(1.5,2.5),(2.25,3.25)])
 def test_addone(x,x_plus_one):
