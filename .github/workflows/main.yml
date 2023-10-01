@@ -31,5 +31,6 @@ jobs:
 
     - name: Test with PyTest
       run: |
-        python -m pytest --cov=code.mymath tests/test_mymath.py tests/test_mymath2.py
-        python -m pytest --cov=code.array_stats tests/test_array_stats_pytest.py
+        cd code
+        python -m pytest --cov=mymath test_mymath.py test_mymath2.py
+        python -m pytest --cov=array_stats test_array_stats_pytest.py
